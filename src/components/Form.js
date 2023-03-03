@@ -61,7 +61,7 @@ function Form() {
                 {info.wind.speed} km/h <GiWindsock />
               </p>
             </>
-          ) : <div className="error">Hata: {error}!</div>}
+          ) : error && <div className="error">Hata: {error}!</div>}
         </div>
       </form>
     </div>
