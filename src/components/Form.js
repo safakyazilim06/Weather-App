@@ -42,6 +42,7 @@ function Form() {
             onChange={handleChange}
             value={city}
             className="searchText"
+            placeholder="Şehir giriniz"
           />
           <button type="submit" className="btn">
             Sorgula
